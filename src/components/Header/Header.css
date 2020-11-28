@@ -1,0 +1,25 @@
+.header{
+    background:#fff;
+    border-radius:40px;
+    padding:15px;
+}
+.inputsearch{
+    margin-top:8px;
+    border-radius:30px;
+    background:#f8f8f8;
+    padding:12px;
+}
+input[type=text]{
+    background:#f8f8f8;
+}
+.primaryicons{
+    margin-top:15px;
+}
+.secondaryicons{
+    margin-top:15px;
+}
+@media only screen and (max-width:1024px){
+    .header{
+        text-align:center;
+    }
+}

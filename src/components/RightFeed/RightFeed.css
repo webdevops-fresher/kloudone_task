@@ -1,0 +1,17 @@
+.RightFeed{
+    background:#fff;
+    height:300px;
+    border-radius:30px;
+    padding:5px;
+}
+.profileandsettings{
+    margin-top:10px;
+    border-bottom: 1px solid #ddd;
+    text-align:right;
+}
+.chats{
+    height:200px;
+}
+.ChatInput{
+    border-radius:30px;
+}

@@ -1,0 +1,17 @@
+.stories-content {
+  background: #fff;
+  border-radius: 15px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.stories {
+  display: flex;
+  flex-wrap: wrap;
+}
+.expand-stories{
+    text-align:right;
+}
+.stories-title{
+    text-align:left;
+}
