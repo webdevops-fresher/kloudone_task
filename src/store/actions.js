@@ -95,3 +95,9 @@ export const chatMessenger=()=>{
     dispatch({type:actionTypes.CHAT_MESSENGER});
   }
 }
+
+export const handleChatSubmit=(chat)=>{
+  return async function(dispatch){
+    dispatch({type:actionTypes.NEW_CHAT,payload:chat});
+  }
+}

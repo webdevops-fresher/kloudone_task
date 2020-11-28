@@ -8,7 +8,8 @@ const initialState = {
   moreOrLess: false,
   showFullPost: false,
   showPost: {},
-  messenger:false
+  messenger:false,
+  chats:[]
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -61,6 +62,8 @@ const rootReducer = (state = initialState, action) => {
       return {...state,allPosts:[...state.allPosts,newFeed],posts:[...state.posts,newFeed]}
     case actionTypes.CHAT_MESSENGER:
       return {...state,messenger:!state.messenger}
+    case actionTypes.NEW_CHAT:
+      return {...state,chats:[...state.chats,action.payload]}
     default:
       return { ...state };
   }
